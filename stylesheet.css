@@ -1,3 +1,29 @@
 body {
-    background-color: lightskyblue;
+    background-color: rgb(216, 240, 255);
+}
+
+.header h1 {
+    font-size: 50px;
+    font-family: Georgia;
+    position: absolute;
+    top:40%;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.bluffs {
+    position: fixed;
+    top:0%;
+    z-index: 0;
+}
+
+.color-block {
+    height: 4000px;
+    width: 100%;
+    background-color: bisque;
+    z-index: 2;
+    position:absolute;
+    top: 55%;
 }
