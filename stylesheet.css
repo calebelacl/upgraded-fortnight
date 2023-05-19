@@ -2,15 +2,21 @@ body {
     background-color: rgb(216, 240, 255);
 }
 
+@font-face {
+    font-family: Quicksand;
+    src: url("./fonts/quicksand/static/Quicksand-Regular.ttf");
+}
+
 .header h1 {
     font-size: 50px;
-    font-family: Georgia;
+    font-family: Quicksand;
     position: absolute;
-    top:40%;
+    top:80%;
     width: 100%;
     z-index: 1;
     text-align: center;
     background-color: aliceblue;
+    padding: 15px;
 }
 
 .bluffs {
@@ -25,5 +31,5 @@ body {
     background-color: bisque;
     z-index: 2;
     position:absolute;
-    top: 55%;
+    top: 100%;
 }
