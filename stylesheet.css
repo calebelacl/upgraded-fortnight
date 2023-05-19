@@ -7,9 +7,14 @@ body {
     src: url("./fonts/quicksand/static/Quicksand-Regular.ttf");
 }
 
+@font-face {
+    font-family: Quicksand-Bold;
+    src: url("./fonts/quicksand/static/Quicksand-Bold.ttf");
+}
+
 .header h1 {
     font-size: 50px;
-    font-family: Quicksand;
+    font-family: Quicksand-Bold;
     position: absolute;
     top:80%;
     width: 100%;
@@ -32,4 +37,34 @@ body {
     z-index: 2;
     position:absolute;
     top: 100%;
+}
+
+.article-block {
+    position: relative;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+}
+
+.article {
+    position: relative;
+    top: 15px;
+}
+
+.articles p {
+    display: block;
+    background-color: aliceblue;
+    font-family: Quicksand;
+    position: static;
+    top: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    width: auto;
+    margin: 0 auto;
+}
+
+.articles {
+    display: inline-block;
+    width: 25%;
+    margin: 4%;
 }
